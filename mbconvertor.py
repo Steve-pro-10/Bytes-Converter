@@ -1,3 +1,6 @@
+"""1.1 new:
+added exabyte, zettabyte, yottabyte,ronnabyte,quettabyte"""
+
 import customtkinter as ctk
 from PIL import Image
 value1 = "kilobytes"
@@ -14,7 +17,7 @@ root.geometry("600x150")
 root.iconbitmap("./images/icona.ico")
 root.title("Binary Converter v1.0")
 dict = {}
-valori = ["bytes","kilobyes","megabytes","gigabyte","terabytes","pentabytes"]
+valori = ["bytes","kilobyes","megabytes","gigabyte","terabytes","petabytes","exabyte","zettabyte","yottabyte","ronnabyte","quettabyte"]
 i = 0
 
 #questo ciclo serve per assegnare ad ogni stringa il proprio valore rispetto ai bytes
