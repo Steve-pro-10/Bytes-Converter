@@ -1,3 +1,5 @@
+#1.1 version: added exabyte, zettabyte, yottabyte,ronnabyte,quettabyte
+
 import tkinter as tk
 import customtkinter as ctk
 from PIL import Image, ImageTk
@@ -17,7 +19,7 @@ root.geometry("600x150")
 root.iconphoto(False, img)
 root.title("Binary Converter v1.0")
 dict = {}
-valori = ["bytes","kilobyes","megabytes","gigabyte","terabytes","pentabytes"]
+valori = ["bytes","kilobyes","megabytes","gigabyte","terabytes","petabytes","exabyte","zettabyte","yottabyte","ronnabyte","quettabyte"]
 i = 0
 
 #questo ciclo serve per assegnare ad ogni stringa il proprio valore rispetto ai bytes
@@ -72,3 +74,4 @@ output_button = ctk.CTkButton(root, width = 200, font=("Helvetica",16),command=c
 output_button.grid(row=2,column=1)
 
 root.mainloop()
+
